@@ -17,11 +17,6 @@ public class Solution {
                 myMap.put(target - curr, i);
             }
         }
-        if (output){
-            return true;
-        }
-        else{
-            return false;
-        }
+        return output;
     }
 }
